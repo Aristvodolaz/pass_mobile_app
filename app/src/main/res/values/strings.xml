@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">X-Pass</string>
+    <string name="re_login"> Wait before trying again</string>
+    <string name="re_code" >Request the code again</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="remmeber_me">Remember me</string>
+    <string name="enter">Log in</string>
+    <string name="wlcome">Welcome</string>
+    <string name="info_login">Please fill out the following fields to log in.</string>
+    <string name="error_login">Error in login or password</string>
+    <string name="pleas_scan">Please scan the QR codes of guests for this event.</string>
+    <string name="open_scan">Open QR code scanner</string>
+    <string name="end_event">This event was a success!</string>
+    <string name="camera_permission_message">Grant permission for the camera</string>
+    <string name="error_message">No clearance</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="error_connecting">Connection error</string>
+    <string name="empty_inspectors">There are no inspectors</string>
+    <string name="choose_event">Select an event</string>
+    <string name="choose_family">Select guests</string>
+    <string name="searcj">Search</string>
+    <string name="all">All</string>
+    <string name="podtverdit">Confirm</string>
+    <string name="choose_inspector">Select a reviewer</string>
+    <string name="not_search_active_event">No active events</string>
+    <string name="please_wait_active_event">Please wait for active events to appear.</string>
+    <string name="history_scan">Scan history</string>
+    <string name="history_scnaning">Check history</string>
+    <string name="inspector">Inspector</string>
+    <string name="error_login_in_pass">Error in login or password</string>
+    <string name="scanning">Scanning</string>
+    <string name="pleade_use_qr">Please keep the QR code in the center of the scanner area.</string>
+    <string name="stats_posesheniy">Visit statistics</string>
+    <string name="main">Main</string>
+    <string name="razreshen">Allowed</string>
+    <string name="povtor">Repeat</string>
+    <string name="activno">Actively</string>
+    <string name="zaplanirovano">Planned</string>
+    <string name="zaversheno">Completed</string>
+    <string name="otmeneno">Canceled</string>
+
+    <string name="this_event_planed">This event is scheduled.</string>
+    <string name="this_event_close">This event was a success!</string>
+    <string name="this_event_otmena">This event was a success!</string>
+    <string name="this_event_activno">Please scan the QR codes of guests for this event.</string>
+
+    <string name="zayavleno">Stated</string>
+    <string name="proshli">Gone</string>
+    <string name="repeat">Repeat</string>
+    <string name="neizvestny">Unknown</string>
+    <string name="bez_dostupa">No access</string>
+    <string name="invalid">Invalid</string>
+    <string name="invalid_hisotry">Invalid</string>
+    <string name="zapreshen">Forbidden</string>
+    <string name="vneplan">Unplanned</string>
+
+    <string name="error_empty_login">Enter your username and password</string>
+    <string name="empty_event">No one has attended\n this event yet</string>
+    <string name="connect_error_view">Oops... no internet connection</string>
+    <string name="connect_error_view_text">Please check the connection\nor try again later.</string>
+    <string name="archive">Archive</string>
+    <string name="name_event">Name of the event</string>
+
+    <string name="save">Save</string>
+    <string name="choose_date">Select a date</string>
+    <string name="choose_event_info">You have chosen an event:</string>
+    <string name="golden_vip">Golden VIP</string>
+    <string name="vip">VIP</string>
+
+    <string name="neverny_login">Invalid username or password</string>
+
+    <string name="zayavleno_stats">the person who wants to register for the event.</string>
+    <string name="proshli_stats">the guests have already attended the event.</string>
+    <string name="povtor_stats">guests left the event and returned again.</string>
+    <string name="neizvestny_stats">case(s) of an attempt to pass through a third-party QR code.</string>
+
+    <string name="vneplan_stats">a person was allowed to attend the event by an Emergency code, without prior registration but with an understatement in the list of past guests.</string>
+    <string name="bez_dostup_stats">the person did not register for the event but tried to pass.\nAs an exception, you can use an emergency code to skip them or refuse them.</string>
+
+    <string name="vip_status">guests attended the event using individual impersonal QR codes, included in the list of guests who attended the event.</string>
+    <string name="golden_vip_status">two people entered the event using a VIP group QR code and were added to the list of guests who attended the event.</string>
+    <string name="stats">Statistics</string>
+    <string name="nedeystvitelen_stats">attempts(current) to enter the event using the previously used code.\n(This option is possible when saving the code in a photo and/or sending your own or someone elses qr code, it can only be read 1 time)</string>
+
+    <string name="select_guest">Please select the guests</string>
+    <string name="exit">Exit</string>
+    <string name="exit_question">Log out of your account?</string>
+    <string name="attantion_exit">Attention. Do you really want to log out of your account?</string>
+    <string name="otmena">Cancel</string>
+    <string name="understand">I understand</string>
+    <string name="information">Now you have the ability to easily change the login/exit verification status!\nJust use our handy switch to control this function.</string>
+    <string name="count_vip">Enter the number of logged in participants</string>
+    <string name="count_vip_edit">Enter the number</string>
+    <string name="check_entrance">Entrance verification</string>
+    <string name="otkloneno">Rejected</string>
+    <string name="bez_exit">No entry</string>
+    <string name="exited">Exit</string>
+    <string name="hot_key">Keyboard shortcuts</string>
+    <string name="limit_vip_qr">The limit of passes for this qr code has been exhausted.</string>
+    <string name="fa_msg">Open the notification in the corporate messenger</string>
+    <string name="fa_msg_two">Enter the received code</string>
+    <string name="error_lenght_login">Sorry, login is not possible,\nthe length of the login (password) you have chosen is unacceptable</string>
+    <string name="booking_not_found">No guests found</string>
+    <string name="check_by_booking_num">Checking by booking number</string>
+    <string name="booking_num">Enter the guests reservation number</string>
+    <string name="reservation_num">Reservation number</string>
+    <string name="found_guest">Found guests</string>
+    <string name="reset">Reset</string>
+    <string name="employee">Employee</string>
+    <string name="spouse">Spouse</string>
+    <string name="child">Child</string>
+    <string name="colleague">Colleague</string>
+    <string name="friend">Friend</string>
+    <string name="unknown">Unknown</string>
+    <string name="error_attempts_exceeded">Exceeded the number of code input attempts</string>
+    <string name="code">Code</string>
+    <string name="resend_code">Resend</string>
+    <string name="retry_in">Retry in %s</string>
+    <string name="try_again">Please try again</string>
+    <string name="enter_code">Enter code</string>
+
+</resources>

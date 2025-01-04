@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_background">#ffffff</color>
+    <color name="text_toolbar">#000000</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="transpanent">#00000000</color>
+
+    <color name="green_snack_bar">#34b349</color>
+    <color name="red_snack_bar">#F02934</color>
+    <color name="grey_snack_bar">@color/auxiliary_80</color>
+
+    <color name="text_snack_bar">#ffffff</color>
+
+    <color name="accent_color">#F35421</color>
+    <color name="hint">#999999</color>
+
+    <color name="auxiliary_20">#cccccc</color>
+    <color name="auxiliary_30">#b3b3b3</color>
+    <color name="auxiliary_50">#808080</color>
+    <color name="auxiliary_60">#666666</color>
+    <color name="auxiliary_70">#4d4d4d</color>
+    <color name="auxiliary_80">#333333</color>
+
+    <color name="checked_track_color">#34b349</color> <!-- Зеленый цвет для включенного состояния -->
+    <color name="unchecked_track_color">#F02934</color> <!-- Красный цвет для выключенного состояния -->
+
+</resources>
