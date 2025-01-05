@@ -1,4 +1,4 @@
-package com.application.x_pass.viewModel
+package com.application.x_pass.viewModel.inspector
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel

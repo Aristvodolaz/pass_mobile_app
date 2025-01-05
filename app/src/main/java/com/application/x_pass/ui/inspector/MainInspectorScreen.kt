@@ -1,10 +1,7 @@
 package com.application.x_pass.ui.inspector
 
-import android.text.format.DateUtils
 import android.util.Log
-import android.widget.Toast
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -28,16 +25,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
-import androidx.compose.ui.res.fontResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.application.x_pass.data.remote.request_response.EventsResponse
 import com.application.x_pass.ui.dialog.LogoutConfirmationDialog
@@ -45,7 +39,7 @@ import com.application.x_pass.utils.DateUtils.Companion.applyTimeShift
 import com.application.x_pass.utils.DateUtils.Companion.formatDateString
 import com.application.x_pass.utils.DateUtils.Companion.parseDateString
 import com.application.x_pass.utils.SPHelper
-import com.application.x_pass.viewModel.InspectorViewModel
+import com.application.x_pass.viewModel.inspector.InspectorViewModel
 @Composable
 fun MainInspectorScreen(viewModel: InspectorViewModel = hiltViewModel(),
                         spHelper: SPHelper,
